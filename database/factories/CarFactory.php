@@ -19,7 +19,8 @@ class CarFactory extends Factory
         return [
             'brand' => fake()->randomElement(['VW', 'GM', 'Fiat', 'Ford']),
             'model' => fake()->randomElement(['Fusca', 'Brasilia', 'Uno', 'Corsa', 'Corcel']),
-            'hp' => fake()->numberBetween(60,120)
+            'hp' => fake()->numberBetween(60,120),
+            'photoUrl' => fake()->imageUrl(320, 240, 'Car')
         ];
     }
 }

@@ -15,6 +15,7 @@ class Car extends Component
         public string $model,
         public string $brand,
         public int $hp,
+        public string $photoUrl,
     )
     {
         //

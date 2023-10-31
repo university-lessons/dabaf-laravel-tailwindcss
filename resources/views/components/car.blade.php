@@ -1,4 +1,7 @@
 <div>
+    <image src={{$photoUrl}} alt='car photo' />
+</div>
+<div>
     <b>Model:</b>{{$model}}
 </div>
 <div>
